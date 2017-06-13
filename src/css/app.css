@@ -376,7 +376,8 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: url("images/background.png") #edeff0; }
+  background: url("../../img/svgs/background.svg") #edeff0;
+  background-size: 55px; }
 
 #container {
   max-width: 960px;
@@ -439,5 +440,24 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058; }
+
+.navigation a:hover {
+  color: #39ADD1; }
+  .navigation a:hover .nav-contact, .navigation a:hover .nav-location, .navigation a:hover .nav-heart {
+    fill: #111; }
+
+.logo {
+  width: 140px; }
+
+@media screen and (max-width: 420px) {
+  .st1 {
+    display: none; } }
+
+@media screen and (min-width: 420px) {
+  .logo-header {
+    display: none; } }
+
+.coat-colors {
+  width: 170px; }
 
 /*# sourceMappingURL=app.css.map */

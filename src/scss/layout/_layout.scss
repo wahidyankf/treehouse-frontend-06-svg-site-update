@@ -1,0 +1,20 @@
+.logo {
+  width: 140px;
+}
+
+.st1 {
+  @media screen and (max-width: 420px){
+    display: none;
+  }
+}
+
+.logo-header {
+  @media screen and (min-width: 420px){
+    display: none;
+  }
+}
+
+.coat-colors {
+  width: 170px;
+}
+

@@ -1,0 +1,9 @@
+.navigation{
+  a:hover {
+    color: #39ADD1;
+
+    .nav-contact, .nav-location, .nav-heart{
+      fill: #111;
+    }
+  }
+}
